@@ -15,7 +15,7 @@ function App() {
     useEffect(() => {
 
         async function fetchFilms() {
-            let res = await fetch('https://swapi.dev/api/films/?format=json');
+            let res = await fetch('https://swapi.dev/api/films/?format=json', { referrerPolicy: "unsafe-url"});
             let data = await res.json();
             setFilms(data.results);
             setLoading(false);
