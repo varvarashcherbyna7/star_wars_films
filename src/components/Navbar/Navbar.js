@@ -8,7 +8,7 @@ const Navbar = (props) => {
     return (
         <nav className='nav'>
             <div className="nav-logo">
-                <NavLink to='/'>
+                <NavLink to='/star_wars_films/'>
                     <img src={logo} alt="star wars logo"/>
                 </NavLink>
             </div>

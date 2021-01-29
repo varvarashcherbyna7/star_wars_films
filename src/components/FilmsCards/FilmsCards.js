@@ -17,7 +17,7 @@ const FilmsCards = ({data}) => {
                             <div className="creator">{film.director}</div>
                             <div className="release-data">{film.release_date}</div>
                         </div>
-                        <NavLink to={`/singleCard/${film.episode_id}`}>
+                        <NavLink to={`/star_wars_films/singleCard/${film.episode_id}`}>
                             <div className="card-btn">
                                 Show more
                             </div>

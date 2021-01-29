@@ -46,8 +46,8 @@ function App() {
                     ? <Loader/>
                     : (
                         <Switch>
-                            <Route exact path='/' render={() => <FilmsCards data={filteredFilms}/>}/>
-                            <Route exact path={`/singleCard/:episode_id`}
+                            <Route exact path='/star_wars_films/' render={() => <FilmsCards data={filteredFilms}/>}/>
+                            <Route exact path={`/star_wars_films/singleCard/:episode_id`}
                                    render={() => <SingleCard data={films}/>}/>
                             <Route render={() => <h1>404: page not found</h1>}/>
                         </Switch>
