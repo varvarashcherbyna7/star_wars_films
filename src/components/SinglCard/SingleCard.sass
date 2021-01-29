@@ -1,0 +1,59 @@
+@import '../../App'
+
+.single-card
+  width: 100%
+  .card
+    width: 85vw
+    margin: 2rem auto
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: center
+    .cards-planets-header
+      align-self: flex-start
+      padding: 0.5rem 1.5rem
+      background: $mainBlack
+      color: $mainYellow
+      border-radius: 1.9rem
+    .cards-planets
+      width: 95%
+      display: grid
+      grid-template-columns: repeat(1, 100%)
+      gap: 1rem
+      margin: 1rem auto
+      color: $mainYellow
+      line-height: 2rem
+      .card-planets, .card-starships
+        width: 100%
+        height: 400px
+        padding: 1rem 1.8rem
+        background: $mainBlack
+        border-radius: 1rem
+        div
+          span
+            color: $mainGrey
+      .card-starships
+        height: auto
+
+
+@media screen and (min-width: 540px)
+  .single-card
+    width: 100%
+    .card
+      .cards-planets-header
+        margin-top: 3rem
+        margin-bottom: 1rem
+      .cards-planets
+        grid-template-columns: repeat(2, 49%)
+        justify-content: space-between
+        gap: 1%
+
+@media screen and (min-width: 768px)
+  .single-card
+    width: 100%
+    .card
+      .cards-planets
+        grid-template-columns: repeat(3, 32%)
+        justify-content: space-between
+        align-items: center
+        margin: 3rem auto

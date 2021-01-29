@@ -1,0 +1,23 @@
+@import "../../App.sass"
+
+.nav
+  width: 90vw
+  margin: 0 auto
+  display: grid
+  grid-template-columns: 15% 84%
+  justify-content: space-between
+  align-items: center
+
+  .nav-logo img
+    width: 100%
+
+  .nav-search
+    position: relative
+    color: $mainYellow
+
+@media screen and (min-width: 540px)
+  .nav
+    grid-template-columns: 15% 80%
+@media screen and (min-width: 768px)
+  .nav
+    grid-template-columns: 15% 65%
