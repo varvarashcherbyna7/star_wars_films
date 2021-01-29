@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/star_wars_films" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/swapi_reactjs_hooks" vcs="Git" />
   </component>
 </project>
