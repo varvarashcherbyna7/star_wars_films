@@ -26,7 +26,7 @@ const SingleCard = ({data}) => {
         const fetchStarships = async () => {
             try {
                 const response = await Promise.all(
-                    starships.map(url => fetch(`${url}/?format=json`).then(res => res.json()))
+                    starships.map(url => fetch(`${url}?format=json`).then(res => res.json()))
                 );
                 setStarships(response);
                 setLoading(false);
@@ -37,7 +37,7 @@ const SingleCard = ({data}) => {
         const fetchFilms = async () => {
             try {
                 const response = await Promise.all(
-                    planets.map(url => fetch(`${url}/?format=json`).then(res => res.json()))
+                    planets.map(url => fetch(`${url}?format=json`).then(res => res.json()))
                 );
                 setPlanets(response);
                 setLoading(false);
