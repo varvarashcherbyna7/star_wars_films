@@ -25,13 +25,41 @@
       line-height: 2rem
       .card-planets, .card-starships
         width: 100%
-        height: 400px
-        padding: 1rem 1.8rem
-        background: $mainBlack
         border-radius: 1rem
         div
+          height: auto
           span
             color: $mainGrey
+        .card-name
+          display: flex
+          justify-content: space-between
+          align-items: center
+          width: 100%
+          font-size: 1.8rem
+          margin-bottom: 1rem
+          height: auto
+          background: $mainBlack
+        .card-description
+      .card-planets, .card-starships
+        .box
+          width: 100%
+          position: relative
+          padding: 1rem 1.8rem
+          border-radius: 1rem
+          background: $mainBlack
+          .card-name
+            div i
+          .boxContent
+            width: 100%
+            position: absolute
+            left: 0
+            top: 5.5rem
+            z-index: 1
+            padding: 1rem 1.8rem
+            border-radius: 1rem
+            border: 3px solid $mainYellow
+            background: $mainBlack
+            .card-description
       .card-starships
         height: auto
 
