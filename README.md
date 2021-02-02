@@ -1,3 +1,14 @@
+
+# The task
+
+Simple web application which use The Star Wars API https://swapi.dev/
+1. Displaying all films on a single page
+2. Search input with live updates
+3. Sort entities by name
+4. When click on any entity show the detailed information about (e.g. click on the film "A New Hope" will show detailed information and all entities in this film(starships and planets), so you can go recursively through them)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
