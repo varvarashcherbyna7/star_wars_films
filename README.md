@@ -7,6 +7,8 @@ Simple web application which use The Star Wars API https://swapi.dev/
 3. Sort entities by name
 4. When click on any entity show the detailed information about (e.g. click on the film "A New Hope" will show detailed information and all entities in this film(starships and planets), so you can go recursively through them)
 
+https://varvarashcherbyna7.github.io/star_wars_films/ 
+
 
 
 # Getting Started with Create React App
